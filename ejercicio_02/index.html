@@ -1,71 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <style> 
-    table, th, td { 
-      border: 1px solid black;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Elemento semánticos de HTML</h1>
-  </header>
-  <nav>
-    <li href="home.html">Home</li> |
-    <li href="about.html">About Us</li> |
-    <li href="contact.html">Contact Us</li>
-  </nav>
-  <main>
-    <article>
-      <table>
-        <tr>
-          <td><h2>Elementos</h2></td>
-          <td><h2>Descripción</h2></td>
-          <td><h2>Imagen</h2></td>
-        </tr>
-        <tr>
-          <td><a href="#">section</a></td>
-          <td>Define secciones de una web.</td>
-          <td><img src="seleccion.jpg" alt="Section" width="150px" height="auto" /></td>
-        </tr>
-        <tr>
-          <td><a href="#">nav</a></td>
-          <td>Especifica una sección que contiene un menú de navegación.</td>
-          <td><img src="nav.jpg" alt="nav" width="150px" height="auto" /></td>
-        </tr>
-        <tr>
-          <td><a href="#">articulo</a></td>
-          <td>Determina secciones de contenido</td>
-          <td><img src="articulo.jpeg" alt="articulo" width="150px" height="auto" /></td>
-        </tr>
-      </table>
-    </article>
-    <h5>
-      Publicado:
-      <time datetime="2024-03-22">22 de marzo de 2024</time>
-      <time datetime="2024-03-22">Hoy</time>
-    </h5>
-  </main>
-  <footer>
-    <div>
-      <h3>Sobre Nosotros</h3>
-      <p>
-        Somos un equipo apasionado por compartir conocimientos y experiencias sobre diversos temas.
-      </p>
-    </div>
-    <div>
-      <h3>Contacto</h3>
-      <ul>
-        <li><strong>Dirección:</strong> Calle Principal, Ciudad, País</li>
-        <li><strong>Teléfono:</strong> +1234567890</li>
-        <li><strong>Email:</strong> info@example.com</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/gh/DeybisMelendez/Jelly/jelly.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Elemento semánticos de HTML</h1>
+    </header>
+    <nav>
+      <ul class="flex" text-align-center>
+        <li><a class="button blue-bg" href="#">Inicio</a></li>
+
+        <li><a class="button blue-bg" href="#">Sobre Nosotros</a></li>
+
+        <li><a class="button blue-bg" href="#">Contactanos</a></li>
       </ul>
-    </div>
-    <p>&copy; 2024 Nombre del Blog. Todos los derechos reservados.</p>
-  </footer>
-</body>
+    </nav>
+    <main>
+      <article class="card">
+        <header>
+            <h2>Tabla de Semantica</h2>
+        </header>
+        <table>
+          <tr>
+            <th>Elementos</th>
+            <th>Descripción</th>
+            <th>Imagen</th>
+          </tr>
+          <tr>
+            <td><a href="#">section</a></td>
+            <td>Define secciones de una web.</td>
+            <td>
+              <img
+                src="seleccion.jpg"
+                alt="Section"
+                width="150px"
+                height="auto"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><a href="#">nav</a></td>
+            <td>Especifica una sección que contiene un menú de navegación.</td>
+            <td><img src="nav.jpg" alt="nav" width="150px" height="auto" /></td>
+          </tr>
+          <tr>
+            <td><a href="#">articulo</a></td>
+            <td>Determina secciones de contenido</td>
+            <td>
+              <img
+                src="articulo.jpeg"
+                alt="articulo"
+                width="150px"
+                height="auto"
+              />
+            </td>
+          </tr>
+        </table>
+      </article>
+      <h5 class="pt-1">
+        Publicado:
+        <time>22 de marzo de 2024</time>
+        <time>Hoy</time>
+      </h5>
+    </main>
+    <footer>
+      <div>
+        <h3>Sobre Nosotros</h3>
+        <p>
+          Somos un equipo apasionado por compartir conocimientos y experiencias
+          sobre diversos temas.
+        </p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li><strong>Dirección:</strong> Calle Principal, Ciudad, País</li>
+          <li><strong>Teléfono:</strong> +1234567890</li>
+          <li><strong>Email:</strong> info@example.com</li>
+        </ul>
+      </div>
+      <p>&copy; 2024 Nombre del Blog. Todos los derechos reservados.</p>
+    </footer>
+  </body>
 </html>
