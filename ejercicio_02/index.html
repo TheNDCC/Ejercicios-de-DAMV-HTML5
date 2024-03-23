@@ -1,93 +1,71 @@
-<!DOCTYPE html> <!-- Declaración del tipo de documento -->
-<html lang="es"> <!-- Etiqueta raíz del documento con especificación del lenguaje -->
-
-<head> <!-- Encabezado del documento -->
-  <meta charset="UTF-8" /> <!-- Metaetiqueta para especificar la codificación de caracteres -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Metaetiqueta para controlar el escalado en dispositivos móviles -->
-  <title>Document</title> <!-- Título del documento -->
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
   <style> 
     table, th, td { 
       border: 1px solid black;
     }
   </style>
-
 </head>
-
-<body> <!-- Cuerpo del documento -->
-
-  <header> <!-- Encabezado de la página -->
-    <h1>Elemento semánticos de HTML</h1> <!-- Título principal -->
+<body>
+  <header>
+    <h1>Elemento semánticos de HTML</h1>
   </header>
-
-  <nav> <!-- Navegación -->
-    <a href="home.html">Home</a> | <!-- Enlace a la página de inicio -->
-    <a href="about.html">About Us</a> | <!-- Enlace a la página "About Us" -->
-    <a href="contact.html">Contact Us</a> <!-- Enlace a la página de contacto -->
+  <nav>
+    <li href="home.html">Home</li> |
+    <li href="about.html">About Us</li> |
+    <li href="contact.html">Contact Us</li>
   </nav>
-
-  <main> <!-- Contenido principal -->
-
-    <article> <!-- Artículo -->
-      <table style="width: 100%"> <!-- Tabla con ancho del 100% -->
-        <tr> <!-- Fila de encabezados -->
-          <td><h2>Elementos</h2></td> <!-- Celda de encabezado "Elementos" -->
-          <td><h2>Descripción</h2></td> <!-- Celda de encabezado "Descripción" -->
-          <td><h2>Imagen</h2></td> <!-- Celda de encabezado "Imagen" -->
+  <main>
+    <article>
+      <table>
+        <tr>
+          <td><h2>Elementos</h2></td>
+          <td><h2>Descripción</h2></td>
+          <td><h2>Imagen</h2></td>
         </tr>
-
-        <tr> <!-- Primera fila de datos -->
-          <td><a href="section.html">section</a></td> <!-- Celda con enlace a la página "section.html" -->
-          <td>Define secciones de una web.</td> <!-- Celda con descripción -->
-          <td><img src="seleccion.jpg" alt="Section" width="150px" height="auto" /></td> <!-- Celda con imagen -->
+        <tr>
+          <td><a href="#">section</a></td>
+          <td>Define secciones de una web.</td>
+          <td><img src="seleccion.jpg" alt="Section" width="150px" height="auto" /></td>
         </tr>
-
-        <tr> <!-- Segunda fila de datos -->
-          <td><a href="section.html">nav</a></td> <!-- Celda con enlace a la página "section.html" -->
-          <td>Especifica una sección que contiene un menú de navegación.</td> <!-- Celda con descripción -->
-          <td><img src="nav.jpg" alt="nav" width="150px" height="auto" /></td> <!-- Celda con imagen -->
+        <tr>
+          <td><a href="#">nav</a></td>
+          <td>Especifica una sección que contiene un menú de navegación.</td>
+          <td><img src="nav.jpg" alt="nav" width="150px" height="auto" /></td>
         </tr>
-
-        <tr> <!-- Tercera fila de datos -->
-          <td><a href="section.html">articulo</a></td> <!-- Celda con enlace a la página "section.html" -->
-          <td>Determina secciones de contenido</td> <!-- Celda con descripción -->
-          <td><img src="articulo.jpeg" alt="articulo" width="150px" height="auto" /></td> <!-- Celda con imagen -->
+        <tr>
+          <td><a href="#">articulo</a></td>
+          <td>Determina secciones de contenido</td>
+          <td><img src="articulo.jpeg" alt="articulo" width="150px" height="auto" /></td>
         </tr>
       </table>
     </article>
-
-    <div> <!-- División adicional -->
-      <h5> <!-- Encabezado de nivel 5 -->
-        Publicado:
-        <time datetime="2024-03-22">22 de marzo de 2024</time> <!-- Elemento time para mostrar la fecha -->
-        <time datetime="2024-03-22">Hoy</time> <!-- Elemento time para mostrar "Hoy" -->
-      </h5>
-    </div>
-
+    <h5>
+      Publicado:
+      <time datetime="2024-03-22">22 de marzo de 2024</time>
+      <time datetime="2024-03-22">Hoy</time>
+    </h5>
   </main>
-
-  <footer> <!-- Pie de página -->
-    <div> <!-- División adicional -->
-      <div> <!-- Otra división adicional -->
-        <h3>Sobre Nosotros</h3> <!-- Encabezado de nivel 3 -->
-        <p> <!-- Párrafo -->
-          Somos un equipo apasionado por compartir conocimientos y experiencias sobre diversos temas.
-        </p>
-      </div>
-      <div> <!-- Otra división adicional -->
-        <h3>Contacto</h3> <!-- Encabezado de nivel 3 -->
-        <ul> <!-- Lista desordenada -->
-          <li><strong>Dirección:</strong> Calle Principal, Ciudad, País</li> <!-- Elemento de lista con dirección -->
-          <li><strong>Teléfono:</strong> +1234567890</li> <!-- Elemento de lista con número de teléfono -->
-          <li><strong>Email:</strong> info@example.com</li> <!-- Elemento de lista con dirección de correo electrónico -->
-        </ul>
-      </div>
+  <footer>
+    <div>
+      <h3>Sobre Nosotros</h3>
+      <p>
+        Somos un equipo apasionado por compartir conocimientos y experiencias sobre diversos temas.
+      </p>
     </div>
-    <div> <!-- Otra división adicional -->
-      <p>&copy; 2024 Nombre del Blog. Todos los derechos reservados.</p> <!-- Pie de página con copyright -->
+    <div>
+      <h3>Contacto</h3>
+      <ul>
+        <li><strong>Dirección:</strong> Calle Principal, Ciudad, País</li>
+        <li><strong>Teléfono:</strong> +1234567890</li>
+        <li><strong>Email:</strong> info@example.com</li>
+      </ul>
     </div>
+    <p>&copy; 2024 Nombre del Blog. Todos los derechos reservados.</p>
   </footer>
-
 </body>
-
 </html>
