@@ -6,9 +6,11 @@
     <title>Formulario de Registro de Matrícula</title>
 </head>
 <body>
+
     <header>
         <h1>Formulario de Registro de Matrícula</h1>
     </header>
+
     <form>
         Nombre:<input type="text"/>
 
@@ -29,9 +31,9 @@
             
         </select><br><br>
 
-        Direccion:<input type="text"/>
+        Direccion:<input type="text" maxlength="100"/>
 
-        Teléfono:<input type="tel" size="8" autofocus/> <br><br>
+        Teléfono:<input type="tel" size="8" autofocus maxlength="8"  pattern="[0-9]" /> <br><br>
 
         Color Favorito:<input type="color"/><br><br>
 
