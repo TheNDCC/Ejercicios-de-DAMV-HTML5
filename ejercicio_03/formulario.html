@@ -6,32 +6,67 @@
     <title>Formulario de Registro de Matrícula</title>
   </head>
   <body>
+    <header>
+      <h1>Formulario de Registro de Matrícula</h1>
+    </header>
     <form action="/Formulario-de-Registro-de-Matrícula" method="post">
       <p>
-        <p>
-            <label for="nombre">Nombre:</label>
-            <input id="nombre" type="text" name="nombre" />
-          </p>
-          <p>
-            <label for="apellido">Apellido:</label>
-            <input id="apellido" type="text" name="apellido" />
-          </p>
-          
-      <p>
-        <label for="date">Fecha de Nacimiento:</label>
-        <input type="date" id="date" name="user_date" />
-      </p>
-      <p>
-        <label for="mail">Correo electrónico:</label>
-        <input type="email" id="mail" name="user_email" />
-      </p>
-      <p>
-        <label for="msg">Mensaje:</label>
-        <textarea id="msg" name="user_message"></textarea>
-      </p>
-      <p class="button">
-        <button type="submit">Envia tu mensaje</button>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" required/>
+
+        <label for="apellido">Apellido:</label>
+        <input id="apellido" type="text" name="apellido"placeholder="Ingrese su Apellido" required/><br />
+
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha" name="user_fecha" required/>
+
+        <label for="sexo">sexo:</label>
+        <input type="radio" id="masculino" name="sexo" value="masculino" />
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="sexo" value="femenino" />
+        <label for="femenino">Femenino</label><br />
+
+        <label for="direccion">Direccion:</label>
+        <textarea id="direccion" name="direccion" placeholder="Ingrese su direcccion domiliciar"></textarea><br>
+
+        <label for="telefono">telefono:</label>
+        <input type="tel" id="telefono" name="telefono" maxlength="9" pattern="[0-9]{4}-[0-9]{4}" placeholder="1234-5678"><br>
+
+        <label for="color">color:</label>
+        <input id="color" type="color" name="color" /><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="user_correo" placeholder="Dirección de correo electrónico" required /><br />
+
+        <label for="archivo">subir archivo:</label>
+        <input type="file" id="archivo" name="archivo" /><br />
+
+        <label for="notificacion">desea recibir notificaciones al correo:</label>
+        <input type="checkbox" id="notificacion" name="notificacion" /><br />
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
       </p>
     </form>
+    <footer>
+      <div>
+        <h3>Sobre Nosotros</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
+          velit quis enim aliquam consectetur vitae a orci.
+        </p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li><strong>Dirección:</strong> Calle Principal, Ciudad, País</li>
+          <li><strong>Teléfono:</strong> +1234567890</li>
+          <li><strong>Email:</strong> info@example.com</li>
+        </ul>
+      </div>
+      <div>
+        <p>&copy; 2024 Nombre del Blog. Todos los derechos reservados.</p>
+      </div>
+    </footer>    
   </body>
 </html>
