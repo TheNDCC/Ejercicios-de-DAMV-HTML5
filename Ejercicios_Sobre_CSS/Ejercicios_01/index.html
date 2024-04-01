@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>HTML5</h1>
+    </header>
+    <nav class="nav">
+      <ul>
+        <li class="nav__item"><a class="nav__link" href="#">Inicio</a></li>
+
+        <li class="nav__item"><a class="nav__link" href="#">Sobre Nosotros</a></li>
+
+        <li class="nav__item"><a class="nav__link" href="#">Contactanos</a></li>
+      </ul>
+    </nav>
+    <div class= "clearfix"></div>
+    <main class="main">
+      <article id="¿Qué es CSS3?">
+        <header>
+          <h2>¿Qué es CSS3?</h2>
+          Publicado el
+          <time datetime="2012-10-15T12:00"
+            >15 de octubre de 2012 a las 12h</time
+          >
+          por <a href="#">Autor 1</a>
+        </header>
+        <p>
+          CSS3 es la última versión del lenguaje de estilos CSS, y representa
+          una evolución significativa con respecto a las versiones anteriores.
+          Fue lanzado en 1999 y ha ido actualizándose a lo largo de los años
+          para incluir nuevas funcionalidades y mejoras en la presentación de
+          las páginas web.
+        </p>
+      </article>
+      <article id="Selectores, declaraciones, propiedades y valores de un CSS.">
+        <header>
+          <h2>Selectores, declaraciones, propiedades y valores de un CSS.</h2>
+          Publicado el <time datetime="2012-10-15T12:00">15 de octubre de 2012 a las 12h</time> por <a href="#">Autor 1</a>
+        </header>
+        <h3>Selectores CSS</h3>
+        <ul>
+          <li>
+            Los selectores se utilizan para delimitar los elementos HTML a los
+            que queremos aplicar estilo.
+          </li>
+          <li>
+            Un selector CSS es la primera parte de una regla CSS. Es un patrón
+            de elementos y otros términos que indican al navegador qué elementos
+            HTML se seleccionan para aplicarles una regla que incluye los
+            valores de las propiedades CSS.
+          </li>
+          <li>
+            Por ejemplo, puedes seleccionar un elemento específico como h1 o una
+            clase como .special.
+          </li>
+          <li>
+            Los selectores se definen en la especificación de selectores de CSS
+            correspondiente y deben ser admitidos por los navegadores para
+            funcionar correctamente. La mayoría de los selectores se encuentran
+            en la especificación de nivel 3 de selectores, que es ampliamente
+            compatible con los navegadores.
+          </li>
+        </ul>
+        <h3>Declaraciones CSS</h3>
+        <ul>
+          <li>
+            Una declaración de CSS es un bloque que especifica el conjunto de
+            estilos que se añadirán a un elemento HTML.
+          </li>
+          <li>Su estructura contiene lo siguiente:</li>
+          <ul>
+            <li>
+              Selector: Define el elemento o conjunto de elementos a los cuales
+              se añadirán los estilos
+            </li>
+            <li>Propiedad: Es el nombre del estilo de CSS.</li>
+            <li>Valor: Es el valor que tomará la propiedad2.</li>
+          </ul>
+        </ul>
+        <h3>Propiedades y Valores</h3>
+        <ul>
+          <li>
+            Las propiedades representan las características que deseas definir.
+            Algunos ejemplos incluyen:
+          </li>
+          <ul>
+            <li>color: Define el color del texto.</li>
+            <li>font-size: Establece el tamaño de la fuente.</li>
+            <li>background-color: Define el color de fondo.</li>
+          </ul>
+          <li>
+            Los valores son los valores específicos que toma cada propiedad. Por
+            ejemplo:
+          </li>
+          <ul>
+            <li>color: blue; establece el color del texto en azul.</li>
+            <li>
+              font-size: 16px; define el tamaño de la fuente como 16 píxeles.
+            </li>
+            <li>
+              background-color: #f0f0f0; establece el color de fondo como gris
+              claro
+            </li>
+          </ul>
+        </ul>
+      </article>
+      <article
+        id="Formas de añadir CSS a un HTML (Externo, Interno y en línea)">
+        <header>
+          <h2>Formas de añadir CSS a un HTML (Externo, Interno y en línea)</h2>
+          Publicado el <time datetime="2012-10-15T12:00">15 de octubre de 2012 a las 12h</time> por <a href="#">Autor 1</a>
+        </header>
+        <ul>
+            <li>
+                CSS Externo:
+            </li>
+            <ul>
+                <li>En este enfoque, defines una hoja de estilo CSS en un archivo separado del documento HTML.</li>
+                <li>Utilizas el elemento <link> en la sección <head> del HTML para enlazar la hoja de estilo externa.</li>
+            </ul>
+            <li>
+                CSS Interno:
+            </li>
+            <ul>
+                <li>En este método, el código CSS está incluido directamente dentro del documento HTML.</li>
+                <li>Utilizas la etiqueta _Stile en la sección head_ para definir las reglas de estilo.</li>
+            </ul>
+            <li>
+                CSS en Línea:
+            </li>
+            <ul>
+                <li>Aquí aplicas estilos directamente a un elemento HTML utilizando el atributo style.</li>
+            </ul>
+        </ul>   
+      </article>
+    </main>
+    <footer class="footer">
+      <div>
+        <h3>Sobre Nosotros</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
+          velit quis enim aliquam consectetur vitae a orci.
+        </p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li><strong>Dirección:</strong> Calle Principal, Ciudad, País</li>
+          <li><strong>Teléfono:</strong> +1234567890</li>
+          <li><strong>Email:</strong> info@example.com</li>
+        </ul>
+      </div>
+      <div>
+        <p>&copy; 2024 Nombre del Blog. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
