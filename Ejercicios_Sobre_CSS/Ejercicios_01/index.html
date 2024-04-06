@@ -21,7 +21,7 @@
     </nav>
     <div class= "clearfix"></div>
     <main class="main">
-      <article id="¿Qué es CSS3?">
+      <article class="articule">
         <header>
           <h2>¿Qué es CSS3?</h2>
           Publicado el
@@ -38,7 +38,7 @@
           las páginas web.
         </p>
       </article>
-      <article id="Selectores, declaraciones, propiedades y valores de un CSS.">
+      <article class="articule">
         <header>
           <h2>Selectores, declaraciones, propiedades y valores de un CSS.</h2>
           Publicado el <time datetime="2012-10-15T12:00">15 de octubre de 2012 a las 12h</time> por <a href="#">Autor 1</a>
@@ -110,8 +110,7 @@
           </ul>
         </ul>
       </article>
-      <article
-        id="Formas de añadir CSS a un HTML (Externo, Interno y en línea)">
+      <article class="articule">
         <header>
           <h2>Formas de añadir CSS a un HTML (Externo, Interno y en línea)</h2>
           Publicado el <time datetime="2012-10-15T12:00">15 de octubre de 2012 a las 12h</time> por <a href="#">Autor 1</a>
@@ -141,24 +140,34 @@
       </article>
     </main>
     <footer class="footer">
-      <div>
-        <h3>Sobre Nosotros</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
-          velit quis enim aliquam consectetur vitae a orci.
-        </p>
+      <div class="footer__social">
+        <div class="row">
+          <a href="#" class="footer__social-link"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="footer__social-link"><i class="fa fa-instagram"></i></a>
+          <a href="#" class="footer__social-link"><i class="fa fa-youtube"></i></a>
+          <a href="#" class="footer__social-link"><i class="fa fa-twitter"></i></a>
+        </div>
       </div>
-      <div>
-        <h3>Contacto</h3>
-        <ul>
-          <li><strong>Dirección:</strong> Calle Principal, Ciudad, País</li>
-          <li><strong>Teléfono:</strong> +1234567890</li>
-          <li><strong>Email:</strong> info@example.com</li>
-        </ul>
+    
+      <div class="footer__links">
+        <div class="row">
+          <ul class="footer__links-list">
+            <li class="footer__links-item"><a href="#" class="footer__links-link">Contact us</a></li>
+            <li class="footer__links-item"><a href="#" class="footer__links-link">Our Services</a></li>
+            <li class="footer__links-item"><a href="#" class="footer__links-link">Privacy Policy</a></li>
+            <li class="footer__links-item"><a href="#" class="footer__links-link">Terms & Conditions</a></li>
+            <li class="footer__links-item"><a href="#" class="footer__links-link">Career</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <p>&copy; 2024 Nombre del Blog. Todos los derechos reservados.</p>
+    
+      <div class="footer__copyright">
+        <div class="row">
+          INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh 
+        </div>
       </div>
     </footer>
+    
+    
   </body>
 </html>

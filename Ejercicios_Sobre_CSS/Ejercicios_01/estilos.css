@@ -5,41 +5,113 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: lightgrey;
-    width: 1100px;
+    background: lightblue;
     margin: 0% auto;
     border: 1px solid black;
+    overflow-x:hidden;
 }
 .header{
-    background: red;
+    background: #008cab;
     text-align: center;
     color: white;
     padding: 10px;
 }
 .nav{
-    background: lightblue;
-    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1ab1d1;
 }
 .nav__item{
     float: left;
-    border: 1px solid black;
-    display: inline-flex;
-    background-color: lightseagreen;
-    padding: 15px;
-    border-radius: 8px;
 }
 .nav__link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: aliceblue;
+}
+.nav__link:hover{
+    background-color: #33d6f7;
 }
 .clearfix{
     clear: both;
 }
 .main{
-    padding: 10%;
+    padding: 10px;
+    background: lightblue;
 }
-.footer{
-    background: black;
-    color: antiquewhite;
+.articule{
+    background: #33d6f7;
+    margin: 50px;
     padding: 20px;
+    border-radius: 10px;
 }
+.footer {
+    background: #000;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+  }
+  
+  .footer__social .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+  }
+  
+  .footer__social-link {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+  }
+  
+  .footer__social-link:hover {
+    color: #fff;
+  }
+  
+  .footer__links .row {
+    width: 100%;
+  }
+  
+  .footer__links-list .footer__links-item {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+  
+  .footer__links-list .footer__links-link {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+  }
+  
+  .footer__links-list .footer__links-link:hover {
+    color: #fff;
+  }
+  
+  .footer__copyright .row {
+    color: gray;
+    font-size: 0.8em;
+  }
+  
+  @media (max-width: 720px) {
+    .footer {
+      text-align: left;
+      padding: 5%;
+    }
+    .footer__links-list .footer__links-item {
+      display: block;
+      margin: 10px 0px;
+      text-align: left;
+    }
+  }
+.color1 { #33d6f7 };
+.color2 { #26c4e4 };
+.color3 { #1ab1d1 };
+.color4 { #0d9fbe };
+.color5 { #008cab };  
+  
