@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    list-style: none;
+    font-family: 'Play', sans-serif;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -24,6 +24,7 @@ body{
 }
 .nav__item{
     float: left;
+    list-style: none;
 }
 .nav__link{
     display: block;
@@ -50,65 +51,15 @@ body{
 .articule__contenido{
     margin: 5px;
     border: 1px solid black;
-    width: 500px;
+    list-style: none;
 }
-.footer {
-    background-color: #000;
-    padding: 30px 0px;
-    font-family: 'Play', sans-serif;
-    text-align: center;
-  }
-  
-  .footer__social .row {
-    width: 100%;
-    margin: 1% 0%;
-    padding: 0.6% 0%;
-    color: gray;
-    font-size: 0.8em;
-  }
-  
-  .footer__social-link {
-    text-decoration: none;
-    color: gray;
-    transition: 0.5s;
-  }
-  
-  .footer__social-link:hover {
-    color: #fff;
-  }
-  
-  .footer__links .row {
-    width: 100%;
-  }
-  
-  .footer__links-list .footer__links-item {
-    display: inline-block;
-    margin: 0px 30px;
-  }
-  
-  .footer__links-list .footer__links-link {
-    text-decoration: none;
-    color: gray;
-    transition: 0.5s;
-  }
-  
-  .footer__links-list .footer__links-link:hover {
-    color: #fff;
-  }
-  
-  .footer__copyright .row {
-    color: gray;
-    font-size: 0.8em;
-  }
-  
-  @media (max-width: 720px) {
-    .footer {
-      text-align: left;
-      padding: 5%;
-    }
-    .footer__links-list .footer__links-item {
-      display: block;
-      margin: 10px 0px;
-      text-align: left;
-    }
-  }
+.articule__imagen{
+    width: 500px;
+    border: 1px solid black;
+}
+.footer_sencillo {
+  text-align: center;
+  padding: 3px;
+  background-color: #008cab;
+  color: white;
+}
