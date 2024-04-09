@@ -48,6 +48,14 @@ body{
     margin: 50px;
     padding: 20px;
     border-radius: 10px;
+    width: calc(100%-20px);
+    height: 100%;
+}
+.articule__contenido{
+    margin: 5px;
+    float: left;
+    border: 1px solid black;
+    width: 500px;
 }
 .footer {
     background: #000;
