@@ -7,7 +7,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
     margin: 0% auto;
-    border: 1px solid black;
     overflow-x:hidden;
 }
 .header{
@@ -40,18 +39,16 @@ body{
     clear: both;
 }
 .main{
-    padding: 10px;
+    padding: 20px;
     background-color: lightblue;
 }
 .articule{
     background-color: #33d6f7;
-    margin: 50px;
-    padding: 20px;
     border-radius: 10px;
+    margin: 40px;
 }
 .articule__contenido{
     margin: 5px;
-    float: left;
     border: 1px solid black;
     width: 500px;
 }
@@ -115,8 +112,3 @@ body{
       text-align: left;
     }
   }
-.color1 { #33d6f7 };
-.color2 { #26c4e4 };
-.color3 { #1ab1d1 };
-.color4 { #0d9fbe };
-.color5 { #008cab };
